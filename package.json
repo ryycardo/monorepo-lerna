@@ -1,14 +1,20 @@
 {
-  "name": "root",
-  "version": "1.18.0",
+  "name": "yarn-workspaces-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ryycardo/monorepo-lerna.git",
+  "author": "ricardo.barbosa@outlook.com <ricardo.barbosa@outlook.com>",
+  "license": "MIT",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "version": "lerna version --conventional-commits --yes"
+    "test": "lerna run test --since",
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff"
   },
   "devDependencies": {
-    "lerna": "^3.19.0"
+    "lerna": "^3.20.2"
   }
 }
