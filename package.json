@@ -12,7 +12,8 @@
   "scripts": {
     "test": "lerna run test --since",
     "new-version": "lerna version --conventional-commits --yes",
-    "diff": "lerna diff"
+    "diff": "lerna diff",
+    "start": "yarn workspace @rchlo/server run start"
   },
   "devDependencies": {
     "lerna": "^3.20.2"

@@ -4,6 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "echo server testing with version: $npm_package_version"
+    "test": "echo server testing with version: $npm_package_version", 
+    "start": "node ."
+  },
+  "dependencies": {
+    "@rchlo/common": "^1.0.1"
   }
 }

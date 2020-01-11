@@ -1,7 +1,4 @@
-const soma = (a, b) => a+b;
-const subtracao = (a, b) => b-a;
-
-module.exports = {
-    soma, 
-    subtracao
-}
+module.exports = () => {
+  console.log("hello from common 12");
+  console.log("hello from common 12");
+};
