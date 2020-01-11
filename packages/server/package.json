@@ -1,13 +1,13 @@
 {
   "name": "@rchlo/server",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "echo server testing with version: $npm_package_version", 
+    "test": "echo server testing with version: $npm_package_version",
     "start": "node ."
   },
   "dependencies": {
-    "@rchlo/common": "^1.0.1"
+    "@rchlo/common": "^1.0.3"
   }
 }
